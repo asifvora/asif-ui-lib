@@ -41,12 +41,13 @@ export default App;
 
 ### Configure props
 
-| Name             | Type       | Default                                      | Description                                                                                                                                                                                                                                                  |
-| ---------------- | ---------- | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| isLoading        | `bool`   | `false`                                       | For loading                                                                                                                                                       |
-| columns        | `array`   | `[]`                                       | Columns array object                                                                                                                                                          |
-| tableData        | `array`   | `[]`                                       | Table data of array object                                                                                                                                                        |
-| perPageData        | `number`   | `10`                                       | Per page record display in table                       
+| Name             | Type       | Default  | Required                                     | Description       | Example                                                                                                                                                                                                                                           |
+| ---------------- | ---------- | -------------------------------------------- | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------- | 
+| isLoading | `bool`   | `false`    | `No`  | For loading | `-`  |
+| columns   | `array`  | `[]`       | `Yes` | Columns array object | `[{ label: "Name", key: "name" },{ label: "Email", key: "email" }]` |
+| tableData        | `array`   | `[]`     | `Yes` | Table data of array object  | `[{ name: "Asif", email: "asifvora0@gmail.com" }, { name: "Zaara", email: "zaara07@gmail.com" } ]` |                                                                                                                         
+| perPageData  | `number`   | `10`  | `No` | Per page record display in table | `-` |
+     
 
 <h2 align="center">Example</h2>
 

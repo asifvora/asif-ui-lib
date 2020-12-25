@@ -177,8 +177,8 @@ export const DataTable = React.memo((props) => {
 
 DataTable.propTypes = {
   isLoading: PropTypes.bool,
-  columns: PropTypes.array,
-  tableData: PropTypes.array,
+  columns: PropTypes.array.isRequired,
+  tableData: PropTypes.array.isRequired,
   perPageData: PropTypes.number
 };
 
