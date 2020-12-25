@@ -1,12 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import { DataTable } from './main';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <DataTable
+      isLoading={false}
+      columns={[
+        { label: "Name", key: "name" },
+        { label: "Email", key: "email" },
+      ]}
+      tableData={[
+        { name: 'Asif', email: 'asifvora0@gmail.com' },
+        { name: 'Rehan', email: 'rehankhan97@gmail.com' },
+        { name: 'Zaara', email: 'zaara07@gmail.com' }
+      ]}
+    />
   </React.StrictMode>,
   document.getElementById('root')
 );

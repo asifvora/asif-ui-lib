@@ -1,0 +1,50 @@
+.btn-export-to-csv-data-asif-lib {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    background: #ff9e38;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    margin: 0 10px;
+  }
+  .btn-export-to-csv-data-asif-lib:hover {
+    color: white;
+  }
+  #react-paginate ul {
+    display: inline-block;
+    margin-left: 20px;
+    padding-left: 0;
+  }
+  
+  #react-paginate li {
+    display: inline-block;
+    border: 1px solid rgb(224, 224, 224);
+    color: #000;
+    cursor: pointer;
+    margin-right: 3px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  
+  #react-paginate li a {
+      padding: 10px;
+      display: inline-block;
+      color: #000;
+      outline: none;
+  }
+  
+  #react-paginate li.active {
+    background: rgb(224, 224, 224);
+    outline: none;
+  }
+  .asif-lib-report-filter {
+      display: inline-flex;
+  }
