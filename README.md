@@ -7,7 +7,7 @@ npm i asif-ui-lib --save
 ```
 
 ```sh
-yarn asif-ui-lib --save
+yarn add asif-ui-lib --save
 ```
 
 <h2 align="center">Usage</h2>
