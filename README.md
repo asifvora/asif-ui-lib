@@ -50,7 +50,7 @@ export default App;
 
 <h2 align="center">Example</h2>
 
-You can run the example Expo-app by cloning the repo:
+You can run the example by cloning the repo:
 
 ```sh
 git clone https://github.com/asifvora/asif-ui-lib.git
