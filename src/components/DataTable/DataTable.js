@@ -21,7 +21,7 @@ import {
   Search,
   Select,
 } from "./Styled";
-import "./DataTable.css";
+import "./DataTable.scss";
 
 const pageNumbers = [1, 5, 10, 20, 30, 40, 50, 100];
 

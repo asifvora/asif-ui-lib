@@ -1,6 +1,6 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { DataTable } from './main';
+import * as React from 'react';
+import * as ReactDOM from 'react-dom';
+import { DataTable } from '../index';
 
 ReactDOM.render(
   <React.StrictMode>
