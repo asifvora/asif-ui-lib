@@ -13,5 +13,5 @@ circle.yml
 .eslintignore
 webpack.config*
 
-package-lock.json
+yarn-lock.json
 yarn.lock
