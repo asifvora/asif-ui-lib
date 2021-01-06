@@ -17,7 +17,7 @@ yarn add asif-ui-lib
 ```javascript
 import React from "react";
 import { DataTable } from "asif-ui-lib";
-import 'asif-ui-lib/lib/main.css'
+import 'asif-ui-lib/lib/styles.css'
 
 const App = () => {
   return (
