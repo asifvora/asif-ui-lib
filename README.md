@@ -7,7 +7,7 @@ npm i asif-ui-lib --save
 ```
 
 ```sh
-yarn add asif-ui-lib --save
+yarn add asif-ui-lib
 ```
 
 <h2 align="center">Usage</h2>
@@ -17,7 +17,7 @@ yarn add asif-ui-lib --save
 ```javascript
 import React from "react";
 import { DataTable } from "asif-ui-lib";
-import 'asif-ui-lib/dist/main.css'
+import 'asif-ui-lib/lib/main.css'
 
 const App = () => {
   return (
